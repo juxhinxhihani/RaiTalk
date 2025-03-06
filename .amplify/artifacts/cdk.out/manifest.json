@@ -1,0 +1,282 @@
+{
+  "version": "40.0.0",
+  "artifacts": {
+    "amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/fd8424ab1fa76b5da5b53332a2de32843b621bb7824665ef350a73fbbba57fb7.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717.assets"
+      ],
+      "metadata": {
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/function/api-function-lambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apifunctionlambdaServiceRoleAA826415"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/function/api-function-lambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apifunctionlambda2E4AB01C"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/function/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/function/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/function/amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionapifunctionlambda99C5C0C6Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionapifunctionlambda99C5C0C6Ref"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/function/amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionapifunctionlambda99C5C0C6Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionapifunctionlambda99C5C0C6Arn"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/function/amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionapifunctionlambdaServiceRole24C9D562Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionapifunctionlambdaServiceRole24C9D562Ref"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/function.NestedStack/function.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "function1351588B"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/definedFunctions": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "definedFunctions"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApi/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApi0C43BF4B"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApi/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiCloudWatchRoleE3ED6605"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApi/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiAccount7C83CF5A"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApi/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiDeployment180EC5030c1646b7936b264dd68663e6c42dad69"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApi/DeploymentStage.dev/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiDeploymentStagedevDA121244"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApi/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiEndpoint0551178A"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApi/Default/OPTIONS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiOPTIONS6AA64D2D"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApi/Default/chat/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApichat40D4BF8B"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApi/Default/chat/OPTIONS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApichatOPTIONS0617E40B"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApi/Default/chat/POST/ApiPermission.amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717apistackRestApi1424A99F.POST..chat": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApichatPOSTApiPermissionamplifyamazonbedrockexpochatappalaxhjusandboxe59e209717apistackRestApi1424A99FPOSTchat1EC05470"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApi/Default/chat/POST/ApiPermission.Test.amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717apistackRestApi1424A99F.POST..chat": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApichatPOSTApiPermissionTestamplifyamazonbedrockexpochatappalaxhjusandboxe59e209717apistackRestApi1424A99FPOSTchat1735E018"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApi/Default/chat/POST/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApichatPOST4DAC6FEC"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/RestApiPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RestApiPolicyE6BE52F0"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/reference-to-amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionNestedStackfunctionNestedStackResource45602036Outputs.amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionapifunctionlambda99C5C0C6Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionNestedStackfunctionNestedStackResource45602036Outputsamplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionapifunctionlambda99C5C0C6Arn"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/reference-to-amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionNestedStackfunctionNestedStackResource45602036Outputs.amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionapifunctionlambdaServiceRole24C9D562Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionNestedStackfunctionNestedStackResource45602036Outputsamplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionapifunctionlambdaServiceRole24C9D562Ref"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717apistackRestApi7D440019Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717apistackRestApi7D440019Ref"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack/amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717apistackRestApiDeploymentStagedevDE68C0BARef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717apistackRestApiDeploymentStagedevDE68C0BARef"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/api-stack.NestedStack/api-stack.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "apistack7B433BC7"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/customOutputs": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "customOutputs"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}

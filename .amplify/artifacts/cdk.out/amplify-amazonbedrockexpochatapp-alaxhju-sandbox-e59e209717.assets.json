@@ -1,0 +1,58 @@
+{
+  "version": "40.0.0",
+  "files": {
+    "8a4bbc5736b6b12e92b0f12d42277266e477a11d874e617b3818dde1c1cef874": {
+      "source": {
+        "path": "asset.8a4bbc5736b6b12e92b0f12d42277266e477a11d874e617b3818dde1c1cef874",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "8a4bbc5736b6b12e92b0f12d42277266e477a11d874e617b3818dde1c1cef874.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "192cd952531b5e6dc845a72dcb85595d362ace8cf6b0df7b82ed104f1ab0a0a9": {
+      "source": {
+        "path": "amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionA9043700.nested.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "192cd952531b5e6dc845a72dcb85595d362ace8cf6b0df7b82ed104f1ab0a0a9.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "98c650b88e3978d01998cd2405c5d66cfbe119a55bba8a66fab10a0666bd11b7": {
+      "source": {
+        "path": "amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717apistackA060BD14.nested.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "98c650b88e3978d01998cd2405c5d66cfbe119a55bba8a66fab10a0666bd11b7.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "fd8424ab1fa76b5da5b53332a2de32843b621bb7824665ef350a73fbbba57fb7": {
+      "source": {
+        "path": "amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "fd8424ab1fa76b5da5b53332a2de32843b621bb7824665ef350a73fbbba57fb7.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
