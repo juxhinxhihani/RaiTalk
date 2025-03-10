@@ -20,6 +20,8 @@ const ChatComponent = () => {
     const fetchAPI = async message => {
         try {
             const newText = await fetchChatAPI(message);
+            console.log(newText)
+
             const newMessageObj = {
                 id: generateUniqueId(),
                 sender: 'bot',

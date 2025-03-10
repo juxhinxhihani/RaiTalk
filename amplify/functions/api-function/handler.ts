@@ -4,8 +4,8 @@
 import { BedrockRuntimeClient, InvokeModelCommand } from "@aws-sdk/client-bedrock-runtime";
 import { APIGatewayProxyHandler } from "aws-lambda";
 
-const bedrock = new BedrockRuntimeClient({ region: "us-east-1" });
-const modelId = "anthropic.claude-v2:1";
+const bedrock = new BedrockRuntimeClient({ region: "eu-west-2" });
+const modelId = "meta.llama3-70b-instruct-v1:0";
 const accept = "application/json";
 const contentType = "application/json";
 
@@ -22,16 +22,23 @@ export const handler: APIGatewayProxyHandler = async (event) => {
         if (!event.body) {
             throw new Error("Request body is missing.");
         }
+        console.log(event)
 
         const body: RequestBody = JSON.parse(event.body);
         const promptMessage = body.message || "hi";
 
-        const newBody = {
-            prompt: `\n\nHuman:${promptMessage}\n\nAssistant:`,
-            max_tokens_to_sample: 400,
-            temperature: 0.1,
-            top_p: 0.9,
+        const newBody= {
+            prompt: `
+<|begin_of_text|><|start_header_id|>user<|end_header_id|> 
+Please response in max 40 words to this question include emojis, but exclude unneeded special character:
+${promptMessage}
+<|eot_id|>
+<|start_header_id|>assistant<|end_header_id|>
+`,
+            max_gen_len : 40,
+            temperature: 0.9,
         };
+        console.log(newBody)
 
         const command = new InvokeModelCommand({
             body: JSON.stringify(newBody),
@@ -43,6 +50,7 @@ export const handler: APIGatewayProxyHandler = async (event) => {
         const response = await bedrock.send(command);
         console.log(response);
         const responseBody: ResponseBody = JSON.parse(Buffer.from(response.body as Uint8Array).toString());
+        console.log(responseBody);
 
         return {
             statusCode: 200,

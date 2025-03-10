@@ -16,13 +16,15 @@ const fetchChatAPI = async message => {
         });
 
         const { body } = await restOperation.response;
+        console.log(body)
         const response = await body.json();
-        const cleanedText = response.completion || 'Ju lutem provoni me vone!';
+        console.log(response)
+        const cleanedText = response.generation || 'Please try again later!';
         return cleanedText
 
     } catch (error) {
-        console.log('POST call failed :', JSON.parse(error.response.body));
-        return 'Ju lutem provoni me vone!'
+        console.log('POST call failed :', JSON.parse(error.response.body).error);
+        return JSON.parse(error.response.body).error;
     }
 }
 

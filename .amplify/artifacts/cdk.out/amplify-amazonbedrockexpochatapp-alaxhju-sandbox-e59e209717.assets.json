@@ -1,20 +1,20 @@
 {
   "version": "40.0.0",
   "files": {
-    "8a4bbc5736b6b12e92b0f12d42277266e477a11d874e617b3818dde1c1cef874": {
+    "cac43d4eef73037a01df99fc43839e023122dec97f5a54081c59533ac77c6bf4": {
       "source": {
-        "path": "asset.8a4bbc5736b6b12e92b0f12d42277266e477a11d874e617b3818dde1c1cef874",
+        "path": "asset.cac43d4eef73037a01df99fc43839e023122dec97f5a54081c59533ac77c6bf4",
         "packaging": "zip"
       },
       "destinations": {
         "current_account-current_region": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
-          "objectKey": "8a4bbc5736b6b12e92b0f12d42277266e477a11d874e617b3818dde1c1cef874.zip",
+          "objectKey": "cac43d4eef73037a01df99fc43839e023122dec97f5a54081c59533ac77c6bf4.zip",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
         }
       }
     },
-    "192cd952531b5e6dc845a72dcb85595d362ace8cf6b0df7b82ed104f1ab0a0a9": {
+    "8ef263dc63e266a32a48232ba8f7322410814116bb6ebf6f10574fcd82c51c47": {
       "source": {
         "path": "amplifyamazonbedrockexpochatappalaxhjusandboxe59e209717functionA9043700.nested.template.json",
         "packaging": "file"
@@ -22,7 +22,7 @@
       "destinations": {
         "current_account-current_region": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
-          "objectKey": "192cd952531b5e6dc845a72dcb85595d362ace8cf6b0df7b82ed104f1ab0a0a9.json",
+          "objectKey": "8ef263dc63e266a32a48232ba8f7322410814116bb6ebf6f10574fcd82c51c47.json",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
         }
       }
@@ -40,7 +40,7 @@
         }
       }
     },
-    "fd8424ab1fa76b5da5b53332a2de32843b621bb7824665ef350a73fbbba57fb7": {
+    "ec049f1db0228999a70c5ff58f2d63b99ad4fc75f74d35220be4858359bc710c": {
       "source": {
         "path": "amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717.template.json",
         "packaging": "file"
@@ -48,7 +48,7 @@
       "destinations": {
         "current_account-current_region": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
-          "objectKey": "fd8424ab1fa76b5da5b53332a2de32843b621bb7824665ef350a73fbbba57fb7.json",
+          "objectKey": "ec049f1db0228999a70c5ff58f2d63b99ad4fc75f74d35220be4858359bc710c.json",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
         }
       }

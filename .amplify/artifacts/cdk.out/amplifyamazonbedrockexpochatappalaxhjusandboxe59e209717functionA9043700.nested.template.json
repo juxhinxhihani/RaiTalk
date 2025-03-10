@@ -61,7 +61,7 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
      },
-     "S3Key": "8a4bbc5736b6b12e92b0f12d42277266e477a11d874e617b3818dde1c1cef874.zip"
+     "S3Key": "cac43d4eef73037a01df99fc43839e023122dec97f5a54081c59533ac77c6bf4.zip"
     },
     "Environment": {
      "Variables": {
@@ -103,7 +103,7 @@
    "DeletionPolicy": "Delete",
    "Metadata": {
     "aws:cdk:path": "amplify-amazonbedrockexpochatapp-alaxhju-sandbox-e59e209717/function/api-function-lambda/Resource",
-    "aws:asset:path": "asset.8a4bbc5736b6b12e92b0f12d42277266e477a11d874e617b3818dde1c1cef874",
+    "aws:asset:path": "asset.cac43d4eef73037a01df99fc43839e023122dec97f5a54081c59533ac77c6bf4",
     "aws:asset:is-bundled": true,
     "aws:asset:property": "Code"
    }
